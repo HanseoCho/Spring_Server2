@@ -7,8 +7,11 @@
 </head>
 <body>
 <h1>
-	Hello Server2
+	Hello File Server!  
 </h1>
-
+        <form action="/FileUpload/file" enctype="multipart/form-data" method="post">
+            <input type="file" name="file">
+            <input type="submit" value="파일업로드">
+        </form>  
 </body>
 </html>
