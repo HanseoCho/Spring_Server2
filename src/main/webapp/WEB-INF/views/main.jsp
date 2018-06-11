@@ -12,7 +12,7 @@
 		$("form").on("submit",function(event){
 			event.preventDefault();			 
 			$.ajax({type:"post",
-				url:"http://server2/FileServer/file",
+				url:"http://server2/FileUpload/file",
 				data:new FormData($(this)[0]),
 				cache: false,
 				contentType: false,
