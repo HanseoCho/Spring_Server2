@@ -22,7 +22,7 @@
 				var list = json.upload;
 				for(var i=0;i<list.length;i++){
 					console.log(list[i]);
-					var html = "<img src='http:\/\/file.server\/"+list[i].fileUrl+"' width='100px'>";
+					var html = "<img src="+list[i].fileUrl+"' width='100px'>";
 					$("#view").append(html);
 				}
 			});     
