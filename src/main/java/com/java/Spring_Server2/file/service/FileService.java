@@ -46,7 +46,6 @@ public class FileService implements FileServiceInterface {
 				fileMap.put("filePath", path);
 				fileMap.put("fileUrl", dns + "resources/" + dir + "/" + fileNm);
 				list.add(fileMap);				
-				
 			} catch (Exception e) {
 				e.printStackTrace();
 			}
