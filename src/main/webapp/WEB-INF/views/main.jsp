@@ -5,7 +5,7 @@
 <head>
 	<title>Home</title>
 </head>
-<script type="text/javascript" src="webjars/jquery/3.3.1/dist/jquery.min.js"></script>
+<!-- <script type="text/javascript" src="webjars/jquery/3.3.1/dist/jquery.min.js"></script>
 <script>
 	$(function(){
 		console.log("abc");
@@ -28,7 +28,7 @@
 			});     
 		});
 	});
-</script>
+</script> -->
 <body>
 <h1>
 	Hello File Server!  
