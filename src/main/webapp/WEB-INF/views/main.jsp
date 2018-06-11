@@ -5,7 +5,7 @@
 <head>
 	<title>Home</title>
 </head>
-<script type="text/javascript" src="/Spring_Server2/webjars/jquery/3.3.1/dist/jquery.min.js"></script>
+<script type="text/javascript" src="webjars/jquery/3.3.1/dist/jquery.min.js"></script>
 <script>
 	$(function(){
 		console.log("abc");
