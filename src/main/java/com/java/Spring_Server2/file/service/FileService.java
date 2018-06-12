@@ -55,8 +55,9 @@ public class FileService implements FileServiceInterface {
 				fileMap.put("fileURL", dns + "resources/" + dir + "/" + fileNm);
 				fileMap.put("boardNo",param.get("boardNo"));
 				fileMap.put("userNo",param.get("userNo"));
+				//////
 				fdi.insert(fileMap);
-				
+				//////
 				list.add(fileMap);				
 			} catch (Exception e) {
 				e.printStackTrace();
