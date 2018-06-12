@@ -33,7 +33,10 @@
 <h1>
 	Hello File Server!  
 </h1>
-        <form action="/FileUpload/file" enctype="multipart/form-data" method="post">
+        <!--  <form action="/FileUpload/file" enctype="multipart/form-data" method="post"> -->
+        	<form action="/FileUpload/file" enctype="multipart/form-data" method="post">
+        	<input type="text" name="boardNo" placeholder="boardNo" >
+        	<input type="text" name="userNo" placeholder="userNo">
             <input type="file" name="file">
             <input type="submit" value="파일업로드">
         </form>  
