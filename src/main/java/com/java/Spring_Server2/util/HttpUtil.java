@@ -50,6 +50,8 @@ public class HttpUtil {
 		
 		JSONObject j = new JSONObject();
 		j = JSONObject.fromObject(JSONSerializer.toJSON(map));
+		// JSONSerializer.toJSON : 자바 객체를 JSON문자열로 변환
+		// fromObject : json형태의 데이터를 관리해주는 메소드
 		
 		try {
 			res.getWriter().write(j.toString());

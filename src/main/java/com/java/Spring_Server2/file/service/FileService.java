@@ -34,6 +34,7 @@ public class FileService implements FileServiceInterface {
 			
 			try {
 				byte[] bytes = files[i].getBytes();
+				//데이터는 모두 바이트로 이루어져있다. (그림, 문자, 알집 등등)
 //				String path = "D:/GDJ10/IDE/workspace/FileServer/src/main/webapp/resources/" + dir + "/";
 				String path = "/var/www/html/resources/" + dir + "/";
 //				String path = req.getSession().getServletContext().getRealPath("/") + "resources/" + dir + "/";
@@ -58,7 +59,9 @@ public class FileService implements FileServiceInterface {
 
 				fdi.insert(fileMap);
 				
-				list.add(fileMap);				
+				
+				list.add(fileMap);
+				//([map],[map],[map])
 			} catch (Exception e) {
 				e.printStackTrace();
 			}
